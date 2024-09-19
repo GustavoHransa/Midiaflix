@@ -275,7 +275,7 @@ footer {
    
     
 }
-@media screen and (max-width:730px) {
+@media screen and (max-width:720px) {
 
     nav ul {
         display: none; /* Cria um layout flexbox */
@@ -287,7 +287,7 @@ footer {
       
     }
     header {
-        display: flex;
+       
         background-color: var(--primary-color); /* Usa a variável de cor primária */
         color: rgb(255, 255, 255);
         padding: 5px;
@@ -295,13 +295,16 @@ footer {
         font-size: 10pt;
         text-decoration: none;
         text-align: center;
+        align-items: center;
         
     }
     header h2{
 
         text-align: center;
         color: rgb(255, 255, 255);
+            
     }
+    
     .featured h2{
         font-size: 25px;
     }
@@ -332,8 +335,11 @@ footer {
         padding-top: 2%;
     }
     .youtube {
-       width: 360px;
-       height: 240px;
+       width: 340px;
+       height: 220px;
+       align-items: center;
+       justify-content: center;
+       padding: 7%;
     }
 
     .slider{
@@ -381,4 +387,13 @@ footer {
         transition: .05s;
     
     }
+    footer {
+        bottom: 20%;
+        left: 0;
+        width: 100%;
+        background-color: #f0f0f0;
+        text-align: center;
+        border:0;
+        height: 20px;
+}
 }
