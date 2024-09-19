@@ -28,6 +28,9 @@ header {
     text-decoration: none;
     
 }
+.logo-mobile{
+    display: none;
+}
 .link{
     color: #0b5a1c;
     text-decoration: none;
@@ -287,17 +290,10 @@ footer {
       
     }
     header {
-       
-        background-color: var(--primary-color); /* Usa a variável de cor primária */
-        color: rgb(255, 255, 255);
-        padding: 5px;
-        font: 300;
-        font-size: 10pt;
-        text-decoration: none;
-        text-align: center;
-        align-items: center;
+        display: none;
         
     }
+    
     header h2{
 
         text-align: center;
@@ -396,4 +392,5 @@ footer {
         border:0;
         height: 20px;
 }
+
 }
