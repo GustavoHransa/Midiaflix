@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MidiaFlix</title>
+    <link rel="shortcut icon" href="icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>MidiaFlix</h1>
+            <h2>Melhores trailers de filmes e séries</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="link"href="index.html">Home</a></li>
+                <li><a class="link" href="filme.html">Filmes</a></li>
+                <li><a class="link"href="serie.html">Séries</a></li>
+                <li><a class="link"href="filmes2024.html">Filmes 2024</a></li>
+                <li><a class="link"href="serie2024.html">Séries 2024</a></li>
+                <button class="login-button" ><a href="#"></a><h2>Login</h2></button>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+       
+        <section class="featured">
+            <h2>Destaques</h2>
+            <div class="slider">
+                <div class="slides"> 
+                    <!--Radio buttons (as bolinhas dos slides)-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!--Fim Radio buttons-->
+    
+                    <!--Slide imagens-->
+                    <div class="slide first">
+                        <img src="fear.jpg" alt="Imagem 1">
+                    </div>
+                    <div class="slide">
+                        <img src="ozark2.png" alt="Imagem 2">
+                    </div>
+                    <div class="slide">
+                        <img src="twd.png" alt="Imagem 3">
+                    </div>
+                    <div class="slide">
+                        <img src="gt.jpg" alt="Imagem 4">
+                    </div>
+                    <!--Fim slides imagens-->
+                    <!--Navigation auto -->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+    
+                    </div>
+                    
+    
+                </div>
+    
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+    
+    
+                </div>
+    
+    
+            </div>
+            <div class="card-container">
+                
+                <div class="twd">
+                    <img src="twd.jpg" alt="Pôster do Filme" >
+                    <h3>The Walking Dead</h3><iframe class="youtube" width="800" height="600" src="https://www.youtube.com/embed/sfAc2U20uyg?si=qOm-BvMtfSL2TGYn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class ='sinopse'>Sinopse: The Walking Dead conta a história de um pequeno grupo de sobreviventes em um mundo pós-apocalíptico cheio de mortos-vivos. A série apresenta a excessiva jornada do grupo liderado por Rick Grimes, em busca de suprimentos e refúgios seguros.</p>
+                </div>
+                <div class="BreakingBad">
+                    <img src="breakingbad.png" alt="Pôster do Filme" >
+                    <h3>Breaking Bad</h3><iframe class="youtube" width="800" height="600" src="https://www.youtube.com/embed/2-W6_6gJda0?si=yjbEgynSM8WxEFoC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class ='sinopse'>Sinopse : Um professor do secundário com cancro do pulmão terminal junta-se a um ex-aluno para fabricar e vender metanfetaminas como forma de garantir o futuro da sua família. Veja tudo o que quiser. "Ruptura Total" venceu um total de 16 Emmys, incluindo quatro para Melhor Ator Dramático, para Bryan Cranston.</p>
+                </div>
+                <div class="FearTWD">
+                    <img src="FearTWD.png" alt="Pôster do Filme" >
+                    <h3>Fear The Walking Dead</h3><iframe class="youtube" width="800" height="600" src="https://www.youtube.com/embed/88vcCpzBET4?si=WJlk8RnDqLk1iNH6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class ='sinopse'>Sinopse : Ambientada em Los Angeles, Fear The Walking Dead narra o início da contaminação, através dos olhos de uma família tentando sobreviver. A orientadora pedagógica Madison Clark (Kim Dickens) precisa cuidar dos dois filhos - o viciado Nick (Frank Dillane) e a adolescente Alicia (Alycia Debnam-Carey).</p>
+                   
+                </div>
+                </div>
+                
+        </section> 
+    </main>
+
+    <footer>
+        <p>© Minha MidiaFlix 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
