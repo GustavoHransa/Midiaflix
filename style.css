@@ -28,15 +28,16 @@ header {
     text-decoration: none;
     
 }
-.logo-mobile{
-    display: none;
+
+.menu-mobile{
+    display:none;
 }
 .link{
     color: #0b5a1c;
     text-decoration: none;
     font-family: 'inter'sans-serif;
     font-weight: 700;
-    font-size: 25pt;
+    font-size: 15pt;
 }
 .login-button a{
     color: #0b5a1c;
@@ -280,6 +281,34 @@ footer {
 }
 @media screen and (max-width:720px) {
 
+    .menu-mobile{
+        display:flex;
+        text-align: center;
+        font-size: 1pt;
+        list-style-type: none;
+
+    }
+    .menu-mobile .link{
+        font-size: 10pt;
+        font-weight: 700;
+        padding: 8px;
+       
+
+    }
+
+
+    .featured h2{
+
+        font-size: 5px;
+        text-align: center;
+        color: #b71c1c;
+        padding: 0%;
+        
+    
+    }
+    
+ 
+
     nav ul {
         display: none; /* Cria um layout flexbox */
     }
@@ -349,7 +378,7 @@ footer {
         width: 500px;
         height: 200px;
         overflow: hidden;
-        padding: 0px;
+        padding: 15px;
     }
     .slides{
 
